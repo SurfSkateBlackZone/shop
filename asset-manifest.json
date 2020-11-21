@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27aed0e2.chunk.css",
+    "main.js": "/static/js/main.ad9a88ca.chunk.js",
+    "main.js.map": "/static/js/main.ad9a88ca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d8e806eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d8e806eb.js.map",
+    "static/js/2.4fdb85de.chunk.js": "/static/js/2.4fdb85de.chunk.js",
+    "static/js/2.4fdb85de.chunk.js.map": "/static/js/2.4fdb85de.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.27aed0e2.chunk.css.map": "/static/css/main.27aed0e2.chunk.css.map",
+    "static/js/2.4fdb85de.chunk.js.LICENSE.txt": "/static/js/2.4fdb85de.chunk.js.LICENSE.txt",
+    "static/media/BlackZone-logos_white.8b2bca5d.png": "/static/media/BlackZone-logos_white.8b2bca5d.png",
+    "static/media/SurfSkate2.f9cb51bb.jpg": "/static/media/SurfSkate2.f9cb51bb.jpg",
+    "static/media/instagram.d3de2664.svg": "/static/media/instagram.d3de2664.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8e806eb.js",
+    "static/js/2.4fdb85de.chunk.js",
+    "static/css/main.27aed0e2.chunk.css",
+    "static/js/main.ad9a88ca.chunk.js"
+  ]
+}
