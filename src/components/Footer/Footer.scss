@@ -1,0 +1,21 @@
+.footer {
+  background-color: rgb(32, 32, 32);
+  padding: 10px;
+  color: white;
+
+  .footer-social-network {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    a {
+      img {
+        width: 25px;
+      }
+    }
+  }
+
+  .footer-copyright {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}

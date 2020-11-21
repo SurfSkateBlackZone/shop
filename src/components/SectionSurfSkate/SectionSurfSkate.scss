@@ -1,0 +1,38 @@
+.section-surf-skate {
+  margin: 15px;
+
+  .section-name {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-size: 2.3em;
+    }
+  }
+
+  .list-products {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      padding: 15px;
+      background-color: black;
+      cursor: pointer;
+      color: white;
+      border: 1px solid black;
+      font-weight: bold;
+
+      &:hover {
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
