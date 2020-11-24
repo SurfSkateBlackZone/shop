@@ -1,5 +1,4 @@
 import React from "react";
-import Product from "../../Product/Product";
 import SurfSkate from "../../Sections/SurfSkate/SurfSkate";
 import "./Article.scss";
 
@@ -10,10 +9,10 @@ const Article = ({title, description}) => {
         <h1>{title}</h1>
       </div>
       <div className="article-description">
-      <div className="editor" dangerouslySetInnerHTML={{__html:description}}>
+        <div className="editor" dangerouslySetInnerHTML={{__html:description}}>
+        </div>
       </div>
       <SurfSkate />
-      </div>
     </div>
   );
 };

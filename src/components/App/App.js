@@ -5,14 +5,15 @@ import ProductsPage from '../../pages/ProductsPage/ProductsPage';
 // import BrandPage from '../../pages/BrandPage/BrandPage';
 import BlogArticlePage from '../../pages/BlogArticlePage/BlogArticlePage';
 import './App.scss'
+import withTracker from '../../hooks/withTracker'
 
 const App = () => (
     <HashRouter>
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/products" component={ProductsPage} />
+            <Route exact path="/" component={withTracker(Home)} />
+            <Route exact path="/products" component={withTracker(ProductsPage)} />
             {/* <Route exact path="/brands" component={BrandPage} /> */}
-            <Route exact path="/blog/:url" component={BlogArticlePage} />
+            <Route exact path="/blog/:url" component={withTracker(BlogArticlePage)} />
         </Switch>
     </HashRouter>
 )

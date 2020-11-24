@@ -5,14 +5,16 @@ import MenuContext from "../../contexts/Menu/MenuContext";
 import Menu from "./Menu/Menu";
 import MenuExtendedLayout from "./MenuExtendedLayout/MenuExtendedLayout";
 import "./NavbarLayout.scss";
+import useGAEventTracker from "../../hooks/useGAEventTracker";
 
 const NavbarLayout = () => {
   const { isActive } = useContext(MenuContext);
+  const GAEventsTracker = useGAEventTracker("Internal Links");
   return (
     <Fragment>
       <div className="navbar">
         <div className="nav-brand">
-          <Link to="/">
+          <Link to="/" onClick={e => GAEventsTracker("InicioLogo")}>
             <img className="nav-logo" src={BlackZoneLogo} alt="BlackZone" />
           </Link>
         </div>

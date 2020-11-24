@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { useEffect, Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { useParams, Redirect } from "react-router-dom";
 import Article from "../../components/Blog/Article/Article";
