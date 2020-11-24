@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Product from "../Product/Product";
-import "./SectionSurfSkate.scss";
+import Product from "../../Product/Product";
+import "./SurfSkate.scss";
 
-const SectionSurfSkate = () => {
+const SurfSkate = () => {
   return (
     <div className="section-surf-skate">
       <div className="section-name">
@@ -20,4 +20,4 @@ const SectionSurfSkate = () => {
   );
 };
 
-export default SectionSurfSkate;
+export default SurfSkate;

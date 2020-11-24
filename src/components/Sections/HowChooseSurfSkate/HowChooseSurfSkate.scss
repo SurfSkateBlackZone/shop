@@ -1,0 +1,52 @@
+.section-how-choose-surf-skate {
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+
+  .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    .content-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      span {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 2em;
+      }
+    }
+
+    .content-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 25px;
+      a {
+        text-decoration: none;
+        background-color: white;
+        border: 1px solid white;
+        font-weight: bold;
+        padding: 15px;
+        color: black;
+        cursor: pointer;
+
+        &:hover {
+          border: 1px solid white;
+          color: white;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}

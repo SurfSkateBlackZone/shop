@@ -1,0 +1,36 @@
+.menu-extended-layout {
+  position: absolute;
+  top: 83px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgb(240, 240, 240);
+
+  .menu-list-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .menu-option {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      border-bottom: 1px solid rgba(165, 165, 165, 0.5);
+
+      &:hover {
+        background-color: rgb(226, 226, 226);
+      }
+      
+      a {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}
