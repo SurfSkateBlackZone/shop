@@ -8,6 +8,10 @@ import "./ProductsPage.scss";
 const ProductsPage = () => (
   <Fragment>
     <Helmet>
+    <meta
+        name="description"
+        content="Descubre los mejores SurfSkates Completos en BlackZone. Tu tienda de SurfSkates"
+      />
       <title> Black Zone | Productos</title>
     </Helmet>
     <header>

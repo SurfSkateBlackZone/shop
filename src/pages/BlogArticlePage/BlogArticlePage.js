@@ -28,7 +28,7 @@ const BlogArticlePage = () => {
       {!validateUrl(url) && <Redirect to="/" />}
       <Helmet>
         <meta name="description" content={resume} />
-        <title>Black Zone | {title}</title>
+        <title>{title} | Black Zone</title>
       </Helmet>
       <header>
         <Navbar />

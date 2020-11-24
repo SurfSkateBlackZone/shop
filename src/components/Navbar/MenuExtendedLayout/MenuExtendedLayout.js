@@ -17,8 +17,8 @@ const MenuExtendedLayout = () => {
         </Link>
         </div>
         <div className="menu-option">
-        <Link to="/brands" className="menu-item">
-          Marcas
+        <Link to="/blog/como-elegir-surfskate" className="menu-item">
+          Como Elegir SurfSkate
         </Link>
         </div>
       </div>
