@@ -1,5 +1,6 @@
 .navbar {
   display: grid;
+  z-index: 2;
   grid-template-columns: 1fr 2fr;
   background-color: rgb(31, 31, 31);
 }
@@ -12,6 +13,12 @@
     width: 80px;
     height: 80px;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-content {

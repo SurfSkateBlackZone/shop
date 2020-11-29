@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import ContentHighlight from "../../components/ContentHighlight/ContentHighlight";
 import Footer from "../../components/Footer/Footer";
-import MessageHighlight from "../../components/MessageHighlight/MessageHighlight";
 import Navbar from "../../components/Navbar/Navbar";
 import HowChooseSurfSkate from "../../components/Sections/HowChooseSurfSkate/HowChooseSurfSkate";
 import SurfSkate from "../../components/Sections/SurfSkate/SurfSkate";
@@ -23,7 +22,6 @@ const Home = () => {
         <Navbar />
       </header>
       <main>
-        <MessageHighlight />
         <ContentHighlight />
         <SurfSkate />
         <HowChooseSurfSkate />
