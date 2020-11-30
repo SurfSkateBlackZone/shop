@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.116a979b.chunk.css",
-    "main.js": "/shop/static/js/main.415dd44e.chunk.js",
-    "main.js.map": "/shop/static/js/main.415dd44e.chunk.js.map",
+    "main.css": "/shop/static/css/main.d34f3e8f.chunk.css",
+    "main.js": "/shop/static/js/main.034fbfa1.chunk.js",
+    "main.js.map": "/shop/static/js/main.034fbfa1.chunk.js.map",
     "runtime-main.js": "/shop/static/js/runtime-main.38b2230b.js",
     "runtime-main.js.map": "/shop/static/js/runtime-main.38b2230b.js.map",
-    "static/js/2.17966bb6.chunk.js": "/shop/static/js/2.17966bb6.chunk.js",
-    "static/js/2.17966bb6.chunk.js.map": "/shop/static/js/2.17966bb6.chunk.js.map",
+    "static/js/2.cc7d612a.chunk.js": "/shop/static/js/2.cc7d612a.chunk.js",
+    "static/js/2.cc7d612a.chunk.js.map": "/shop/static/js/2.cc7d612a.chunk.js.map",
     "index.html": "/shop/index.html",
-    "static/css/main.116a979b.chunk.css.map": "/shop/static/css/main.116a979b.chunk.css.map",
-    "static/js/2.17966bb6.chunk.js.LICENSE.txt": "/shop/static/js/2.17966bb6.chunk.js.LICENSE.txt",
+    "static/css/main.d34f3e8f.chunk.css.map": "/shop/static/css/main.d34f3e8f.chunk.css.map",
+    "static/js/2.cc7d612a.chunk.js.LICENSE.txt": "/shop/static/js/2.cc7d612a.chunk.js.LICENSE.txt",
     "static/media/BlackZone-logos_white.8b2bca5d.png": "/shop/static/media/BlackZone-logos_white.8b2bca5d.png",
     "static/media/HowChooseSurfSkate.6e0f3793.jpg": "/shop/static/media/HowChooseSurfSkate.6e0f3793.jpg",
     "static/media/SurfSkate2.f9cb51bb.jpg": "/shop/static/media/SurfSkate2.f9cb51bb.jpg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.38b2230b.js",
-    "static/js/2.17966bb6.chunk.js",
-    "static/css/main.116a979b.chunk.css",
-    "static/js/main.415dd44e.chunk.js"
+    "static/js/2.cc7d612a.chunk.js",
+    "static/css/main.d34f3e8f.chunk.css",
+    "static/js/main.034fbfa1.chunk.js"
   ]
 }
