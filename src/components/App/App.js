@@ -1,27 +1,31 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import Home from "../../pages/Home/Home";
-import ProductsPage from "../../pages/ProductsPage/ProductsPage";
-// import BrandPage from '../../pages/BrandPage/BrandPage';
-import BlogArticlePage from "../../pages/BlogArticlePage/BlogArticlePage";
 import "./App.scss";
 import withTracker from "../../hooks/withTracker";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import Spinner from '../Spinner';
+// import BrandPage from '../../pages/BrandPage/BrandPage';
+
+const Home = lazy(() => import("../../pages/Home/Home"));
+const ProductsPage = lazy(() => import("../../pages/ProductsPage/ProductsPage"));
+const BlogArticlePage = lazy(() => import("../../pages/BlogArticlePage/BlogArticlePage"));
 
 const App = () => (
   <HashRouter>
-    <ScrollToTop>
-      <Switch>
-        <Route exact path="/" component={withTracker(Home)} />
-        <Route exact path="/products" component={withTracker(ProductsPage)} />
-        {/* <Route exact path="/brands" component={BrandPage} /> */}
-        <Route
-          exact
-          path="/blog/:url"
-          component={withTracker(BlogArticlePage)}
-        />
-      </Switch>
-    </ScrollToTop>
+      <ScrollToTop>
+          <Switch>
+            <Suspense fallback={<Spinner />}>
+              <Route exact path="/" component={withTracker(Home)} />
+              <Route exact path="/products" component={withTracker(ProductsPage)} />
+              {/* <Route exact path="/brands" component={BrandPage} /> */}
+              <Route
+                exact
+                path="/blog/:url"
+                component={withTracker(BlogArticlePage)}
+              />
+            </Suspense>
+          </Switch>
+      </ScrollToTop>
   </HashRouter>
 );
 

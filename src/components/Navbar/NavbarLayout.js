@@ -1,6 +1,6 @@
 import React, { Fragment, useContext } from "react";
 import { Link } from 'react-router-dom';
-import BlackZoneLogo from "../../assets/BlackZone-logos_white.png";
+import BlackZoneLogo from "../../assets/BlackZone-logos_white.svg";
 import MenuContext from "../../contexts/Menu/MenuContext";
 import Menu from "./Menu/Menu";
 import MenuExtendedLayout from "./MenuExtendedLayout/MenuExtendedLayout";
@@ -31,7 +31,11 @@ const NavbarLayout = () => {
       <div className="navbar" id="navbar">
         <div className="nav-brand">
           <Link to="/" onClick={e => GAEventsTracker("InicioLogo")}>
-            <img className="nav-logo" src={BlackZoneLogo} alt="BlackZone" />
+            <img className="nav-logo"
+              src={BlackZoneLogo}
+              alt="BlackZone"
+              width="100%"
+              height="100%" />
           </Link>
         </div>
         <div className="nav-content">

@@ -16,6 +16,7 @@ const Product = ({link}) => {
             width="120px"
             height="240px"
             src={link}
+            loading="lazy"
           ></iframe>
       </a>
     </div>

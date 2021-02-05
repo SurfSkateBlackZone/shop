@@ -14,7 +14,11 @@ const Footer = () => {
           rel="noopener noreferrer"
           onClick={e => GAEventsTracker("Instagram Page Visit","https://www.instagram.com/surfskateblackzone/")}
         >
-          <img src={instagramIcon} alt="InstagramIcon"/>
+          <img 
+            src={instagramIcon} 
+            alt="InstagramIcon" 
+            width="100%" 
+            height="100%"/>
         </a>
       </div>
       <div className="footer-copyright">
