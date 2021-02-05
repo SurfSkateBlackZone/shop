@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "SurfSkate Black Zone",
+    "short_name": "Black Zone",
     "icons": [
         {
             "src": "%PUBLIC_URL%/android-chrome-192x192.png",
