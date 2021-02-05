@@ -1,14 +1,14 @@
 import React, { lazy, Suspense } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import "./App.scss";
+import "./style.scss";
 import withTracker from "../../hooks/withTracker";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Spinner from '../Spinner';
 // import BrandPage from '../../pages/BrandPage/BrandPage';
 
-const Home = lazy(() => import("../../pages/Home/Home"));
-const ProductsPage = lazy(() => import("../../pages/ProductsPage/ProductsPage"));
-const BlogArticlePage = lazy(() => import("../../pages/BlogArticlePage/BlogArticlePage"));
+const Home = lazy(() => import("../../pages/Home"));
+const ProductsPage = lazy(() => import("../../pages/ProductsPage"));
+const BlogArticlePage = lazy(() => import("../../pages/BlogArticlePage"));
 
 const App = () => (
   <HashRouter>

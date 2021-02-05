@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import './Menu.scss'
+import './style.scss'
 import MenuIcon from "../../../assets/icons/menu.svg";
 import MenuContext from "../../../contexts/Menu/MenuContext";
-import "./Menu.scss";
+import "./style.scss";
 
 const Menu = () => {
   const {openMenu} = useContext(MenuContext);

@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
 import { Helmet } from 'react-helmet';
-import Footer from "../../components/Footer/Footer";
-import ListProducts from "../../components/ListProducts/ListProducts";
-import Navbar from "../../components/Navbar/Navbar";
-import "./ProductsPage.scss";
+import Footer from "../../components/Footer";
+import ListProducts from "../../components/ListProducts";
+import Navbar from "../../components/Navbar";
+import { ProductsLinks } from "../../data/ProductsLinks";
+import "./style.scss";
 
 const ProductsPage = () => (
   <Fragment>
@@ -18,7 +19,7 @@ const ProductsPage = () => (
       <Navbar />
     </header>
     <main>
-      <ListProducts />
+      <ListProducts links={ProductsLinks} />
     </main>
     <footer>
       <Footer />

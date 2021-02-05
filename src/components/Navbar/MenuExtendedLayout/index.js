@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MenuExtendedLayout.scss";
+import "./style.scss";
 import useGAEventTracker from "../../../hooks/useGAEventTracker";
 
 const MenuExtendedLayout = () => {
@@ -10,19 +10,19 @@ const MenuExtendedLayout = () => {
     <div className="menu-extended-layout">
       <div className="menu-list-options">
         <div className="menu-option">
-        <Link to="/" className="menu-item" onClick={e => GAEventsTracker("Inicio")}>
-          Inicio
-        </Link>
+          <Link to="/" className="menu-item" onClick={e => GAEventsTracker("Inicio")}>
+            <span>Inicio</span> 
+          </Link>
         </div>
         <div className="menu-option">
-        <Link to="/products" className="menu-item" onClick={e => GAEventsTracker("Productos")}>
-          Productos
-        </Link>
+          <Link to="/products" className="menu-item" onClick={e => GAEventsTracker("Productos")}>
+            <span>Productos</span> 
+          </Link>
         </div>
         <div className="menu-option">
-        <Link to="/blog/como-elegir-surfskate" className="menu-item" onClick={e => GAEventsTracker("ComoElegirSurfSkate")}>
-          Como Elegir SurfSkate
-        </Link>
+          <Link to="/blog/como-elegir-surfskate" className="menu-item" onClick={e => GAEventsTracker("ComoElegirSurfSkate")}>
+            <span>Como Elegir SurfSkate</span> 
+          </Link>
         </div>
       </div>
     </div>

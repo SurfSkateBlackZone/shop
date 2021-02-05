@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
-import ContentHighlight from "../../components/ContentHighlight/ContentHighlight";
-import Footer from "../../components/Footer/Footer";
-import Navbar from "../../components/Navbar/Navbar";
+import ContentHighlight from "../../components/ContentHighlight";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 import HowChooseSurfSkate from "../../components/Sections/HowChooseSurfSkate/HowChooseSurfSkate";
 import SurfSkate from "../../components/Sections/SurfSkate/SurfSkate";
-import "./Home.scss";
+import "./style.scss";
 
 const Home = () => {
   return (

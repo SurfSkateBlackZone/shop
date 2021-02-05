@@ -1,0 +1,29 @@
+.product {
+  margin: 10px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(214, 214, 214);
+
+  &:hover {
+    background-color: rgb(85, 85, 15);
+    border: 2px solid rgb(85, 85, 15);
+    
+    .product-title {
+      color: white;
+    }
+  }
+
+  .product-image {
+    object-fit: contain;
+  }
+
+  .product-title {
+    color: black;
+    padding: 8px;
+  }
+}
+

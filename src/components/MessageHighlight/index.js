@@ -1,5 +1,5 @@
 import React from 'react';
-import './MessageHighlight.scss'
+import './style.scss'
 
 const MessageHighlight = () => {
   return(

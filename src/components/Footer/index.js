@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.scss";
+import "./style.scss";
 import instagramIcon from '../../assets/instagram.svg'
 import useGAEventTracker from "../../hooks/useGAEventTracker";
 

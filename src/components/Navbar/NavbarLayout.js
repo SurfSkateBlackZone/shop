@@ -2,14 +2,14 @@ import React, { Fragment, useContext } from "react";
 import { Link } from 'react-router-dom';
 import BlackZoneLogo from "../../assets/BlackZone-logos_white.svg";
 import MenuContext from "../../contexts/Menu/MenuContext";
-import Menu from "./Menu/Menu";
-import MenuExtendedLayout from "./MenuExtendedLayout/MenuExtendedLayout";
+import Menu from "./Menu";
+import MenuExtendedLayout from "./MenuExtendedLayout";
 import "./NavbarLayout.scss";
 import useGAEventTracker from "../../hooks/useGAEventTracker";
 
 const NavbarLayout = () => {
   const { isActive } = useContext(MenuContext);
-  const GAEventsTracker = useGAEventTracker("Internal Links");
+  const GAEventsTracker = useGAEventTracker("Navbar Links");
   
   window.addEventListener('scroll', () => {
     let navbar = document.getElementById("navbar");
