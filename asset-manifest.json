@@ -5,21 +5,21 @@
     "static/js/1.43474d63.chunk.js": "/shop/static/js/1.43474d63.chunk.js",
     "static/js/1.43474d63.chunk.js.map": "/shop/static/js/1.43474d63.chunk.js.map",
     "main.css": "/shop/static/css/main.0fe7a070.chunk.css",
-    "main.js": "/shop/static/js/main.868ac79f.chunk.js",
-    "main.js.map": "/shop/static/js/main.868ac79f.chunk.js.map",
-    "runtime-main.js": "/shop/static/js/runtime-main.08aa37e3.js",
-    "runtime-main.js.map": "/shop/static/js/runtime-main.08aa37e3.js.map",
+    "main.js": "/shop/static/js/main.c7e04f1d.chunk.js",
+    "main.js.map": "/shop/static/js/main.c7e04f1d.chunk.js.map",
+    "runtime-main.js": "/shop/static/js/runtime-main.e1c7ceb8.js",
+    "runtime-main.js.map": "/shop/static/js/runtime-main.e1c7ceb8.js.map",
     "static/js/4.7c710a01.chunk.js": "/shop/static/js/4.7c710a01.chunk.js",
     "static/js/4.7c710a01.chunk.js.map": "/shop/static/js/4.7c710a01.chunk.js.map",
     "static/css/5.878ab100.chunk.css": "/shop/static/css/5.878ab100.chunk.css",
-    "static/js/5.320707d4.chunk.js": "/shop/static/js/5.320707d4.chunk.js",
-    "static/js/5.320707d4.chunk.js.map": "/shop/static/js/5.320707d4.chunk.js.map",
+    "static/js/5.a73f0c13.chunk.js": "/shop/static/js/5.a73f0c13.chunk.js",
+    "static/js/5.a73f0c13.chunk.js.map": "/shop/static/js/5.a73f0c13.chunk.js.map",
     "static/css/6.254771bd.chunk.css": "/shop/static/css/6.254771bd.chunk.css",
-    "static/js/6.ae6d78f0.chunk.js": "/shop/static/js/6.ae6d78f0.chunk.js",
-    "static/js/6.ae6d78f0.chunk.js.map": "/shop/static/js/6.ae6d78f0.chunk.js.map",
+    "static/js/6.8652facc.chunk.js": "/shop/static/js/6.8652facc.chunk.js",
+    "static/js/6.8652facc.chunk.js.map": "/shop/static/js/6.8652facc.chunk.js.map",
     "static/css/7.274af7af.chunk.css": "/shop/static/css/7.274af7af.chunk.css",
-    "static/js/7.f88dff01.chunk.js": "/shop/static/js/7.f88dff01.chunk.js",
-    "static/js/7.f88dff01.chunk.js.map": "/shop/static/js/7.f88dff01.chunk.js.map",
+    "static/js/7.624b5d07.chunk.js": "/shop/static/js/7.624b5d07.chunk.js",
+    "static/js/7.624b5d07.chunk.js.map": "/shop/static/js/7.624b5d07.chunk.js.map",
     "index.html": "/shop/index.html",
     "service-worker.js": "/shop/service-worker.js",
     "service-worker.js.map": "/shop/service-worker.js.map",
@@ -35,9 +35,9 @@
     "static/media/menu.25caa964.svg": "/shop/static/media/menu.25caa964.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.08aa37e3.js",
+    "static/js/runtime-main.e1c7ceb8.js",
     "static/js/4.7c710a01.chunk.js",
     "static/css/main.0fe7a070.chunk.css",
-    "static/js/main.868ac79f.chunk.js"
+    "static/js/main.c7e04f1d.chunk.js"
   ]
 }
