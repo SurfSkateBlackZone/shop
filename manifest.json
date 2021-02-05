@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": ".",
+    "start_url": "https://surfskateblackzone.github.io/shop/",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
