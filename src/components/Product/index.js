@@ -14,6 +14,7 @@ const Product = ({title, image, link, scrollPosition}) => {
           rel="noopener noreferrer"
           onClick={e => GAEventsTracker("ProductoAmazon",{title})}>
           <div className="product-container">
+            <span className="product-title">{title}</span>
             <LazyLoadImage
               className="product-image"
               effect="blur"
@@ -22,7 +23,7 @@ const Product = ({title, image, link, scrollPosition}) => {
               alt={title}
               width="100%"
               height="100%"/>
-            <span className="product-title">{title}</span>
+            <button className="btn-buy">Comprar</button>
           </div>
         </a>
       </div>

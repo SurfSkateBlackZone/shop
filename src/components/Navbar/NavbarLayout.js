@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from "react";
+import React, { useEffect, Fragment, useContext } from "react";
 import { Link } from 'react-router-dom';
 import BlackZoneLogo from "../../assets/BlackZone-logos_white.svg";
 import MenuContext from "../../contexts/Menu/MenuContext";
@@ -20,11 +20,15 @@ const NavbarLayout = () => {
     }
   });
 
-  if (isActive) {
-    document.getElementById("body").style.overflowY = "hidden";
-  } else {
-    document.getElementById("body").style.overflowY = "visible";
-  }
+  useEffect(() => {
+    if (isActive) {
+      document.getElementById("body").style.overflowY = "hidden";
+      document.getElementById("menu-extended").style.opacity = 1;
+      
+    } else {
+      document.getElementById("body").style.overflowY = "visible";
+    }
+  }, [isActive])
 
   return (
     <Fragment>
@@ -42,7 +46,7 @@ const NavbarLayout = () => {
           <Menu />
         </div>
       </div>
-      {isActive && <MenuExtendedLayout />}
+      { isActive && <MenuExtendedLayout />}
     </Fragment>
   );
 };

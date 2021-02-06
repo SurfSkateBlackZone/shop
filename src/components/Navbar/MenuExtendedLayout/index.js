@@ -7,7 +7,7 @@ const MenuExtendedLayout = () => {
   const GAEventsTracker = useGAEventTracker("Internal Links");
 
   return (
-    <div className="menu-extended-layout">
+    <div className="menu-extended-layout" id="menu-extended">
       <div className="menu-list-options">
         <div className="menu-option">
           <Link to="/" className="menu-item" onClick={e => GAEventsTracker("Inicio")}>

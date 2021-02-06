@@ -22,7 +22,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-copyright">
-        <span>BlackZone | Copyright 2020</span>
+        <span>BlackZone | Copyright 2021</span>
       </div>
     </div>
   );

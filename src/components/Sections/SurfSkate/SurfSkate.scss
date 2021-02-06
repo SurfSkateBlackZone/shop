@@ -1,10 +1,11 @@
 .section-surf-skate {
-  margin: 15px;
+  margin: 15px 15px 25px 15px;
 
   .section-name {
     display: flex;
     justify-content: center;
     font-style: italic;
+    margin: 10px;
 
     h1 {
       font-size: 2em;
@@ -19,15 +20,18 @@
   .btn {
     display: flex;
     justify-content: center;
+    margin: 10px;
 
     a {
       text-decoration: none;
       padding: 15px;
       background-color: black;
+      border-radius: 8px;
       cursor: pointer;
       color: white;
       border: 1px solid black;
       font-weight: bold;
+      transition: all .4s;
 
       &:hover {
         border: 1px solid black;
