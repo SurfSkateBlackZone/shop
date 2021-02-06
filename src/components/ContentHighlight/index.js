@@ -1,5 +1,5 @@
 import React from 'react';
-import SurfSkateImg from '../../assets/MainSurfSkate.jpg'
+import SurfSkateImg from 'assets/MainSurfSkate.jpg'
 import './style.scss'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';

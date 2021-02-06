@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import './style.scss'
-import MenuIcon from "../../../assets/icons/menu.svg";
-import MenuContext from "../../../contexts/Menu/MenuContext";
+import MenuIcon from "assets/icons/menu.svg";
+import MenuContext from "contexts/Menu/MenuContext";
 import "./style.scss";
 
 const Menu = () => {

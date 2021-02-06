@@ -1,13 +1,13 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Link } from "react-router-dom";
 import "./style.scss";
-import useGAEventTracker from "../../../hooks/useGAEventTracker";
+import useGAEventTracker from "hooks/useGAEventTracker";
 
-const MenuExtendedLayout = () => {
+const MenuExtendedLayout = (props,ref) => {
   const GAEventsTracker = useGAEventTracker("Internal Links");
 
   return (
-    <div className="menu-extended-layout" id="menu-extended">
+    <div className="menu-extended-layout" ref={ref}>
       <div className="menu-list-options">
         <div className="menu-option">
           <Link to="/" className="menu-item" onClick={e => GAEventsTracker("Inicio")}>
@@ -29,4 +29,4 @@ const MenuExtendedLayout = () => {
   );
 };
 
-export default MenuExtendedLayout;
+export default forwardRef(MenuExtendedLayout);

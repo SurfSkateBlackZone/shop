@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Product from "../../Product";
-import "./SurfSkate.scss";
-import useGAEventTracker from "../../../hooks/useGAEventTracker";
+import Product from "components/Product";
+import "./style.scss";
+import useGAEventTracker from "hooks/useGAEventTracker";
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
-import { ProductsLinks } from "../../../data/ProductsLinks";
+import { ProductsLinks } from "data/ProductsLinks";
 
 const SurfSkate = () => {
   const GAEventsTracker = useGAEventTracker("Internal Links");

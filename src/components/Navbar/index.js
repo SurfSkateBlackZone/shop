@@ -1,5 +1,5 @@
 import React from "react";
-import MenuProvider from "../../providers/Menu/MenuProvider";
+import MenuProvider from "providers/Menu/MenuProvider";
 import NavbarLayout from "./NavbarLayout";
 
 const Navbar = () => {

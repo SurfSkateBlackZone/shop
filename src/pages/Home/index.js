@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
-import ContentHighlight from "../../components/ContentHighlight";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
-import HowChooseSurfSkate from "../../components/Sections/HowChooseSurfSkate/HowChooseSurfSkate";
-import SurfSkate from "../../components/Sections/SurfSkate/SurfSkate";
+import ContentHighlight from "components/ContentHighlight";
+import Footer from "components/Footer";
+import Navbar from "components/Navbar";
+import HowChooseSurfSkate from "components/Sections/HowChooseSurfSkate/HowChooseSurfSkate";
+import SurfSkate from "components/Sections/SurfSkate";
 import "./style.scss";
 
 const Home = () => {

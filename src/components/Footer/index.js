@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
-import instagramIcon from '../../assets/instagram.svg'
-import useGAEventTracker from "../../hooks/useGAEventTracker";
+import instagramIcon from 'assets/instagram.svg'
+import useGAEventTracker from "hooks/useGAEventTracker";
 
 const Footer = () => {
   const GAEventsTracker = useGAEventTracker("External Links");

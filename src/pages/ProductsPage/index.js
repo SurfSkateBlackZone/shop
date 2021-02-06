@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import { Helmet } from 'react-helmet';
-import Footer from "../../components/Footer";
-import ListProducts from "../../components/ListProducts";
-import Navbar from "../../components/Navbar";
-import { ProductsLinks } from "../../data/ProductsLinks";
+import Footer from "components/Footer";
+import ListProducts from "components/ListProducts";
+import Navbar from "components/Navbar";
+import { ProductsLinks } from "data/ProductsLinks";
 import "./style.scss";
 
 const ProductsPage = () => (

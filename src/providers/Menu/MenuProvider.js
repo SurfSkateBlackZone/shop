@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MenuContext from "../../contexts/Menu/MenuContext";
+import MenuContext from "contexts/Menu/MenuContext";
 
 const MenuProvider = ({children}) => {
   const [isActive, setIsActive] = useState(false);

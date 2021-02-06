@@ -7,6 +7,7 @@
   z-index: 1;
   opacity: 0;
   background-color: rgb(240, 240, 240);
+  transition: all .8s;
 
   .menu-list-options {
     display: flex;
@@ -34,8 +35,4 @@
       }
     }
   }
-}
-
-#menu-extended {
-  transition: all .8s;
 }

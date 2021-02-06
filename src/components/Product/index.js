@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import useGAEventTracker from "../../hooks/useGAEventTracker";
+import useGAEventTracker from "hooks/useGAEventTracker";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 

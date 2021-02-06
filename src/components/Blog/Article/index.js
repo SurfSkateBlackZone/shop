@@ -1,5 +1,5 @@
 import React from "react";
-import SurfSkate from "../../Sections/SurfSkate/SurfSkate";
+import SurfSkate from "components/Sections/SurfSkate";
 import "./style.scss";
 
 const Article = ({title, description}) => {

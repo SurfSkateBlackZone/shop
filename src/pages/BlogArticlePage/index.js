@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { useParams, Redirect } from "react-router-dom";
-import Article from "../../components/Blog/Article";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
-import { urls } from "../../data/urls";
-import { ArticleInformation } from "../../data/ArticlesInformation";
+import Article from "components/Blog/Article";
+import Footer from "components/Footer";
+import Navbar from "components/Navbar";
+import { urls } from "data/urls";
+import { ArticleInformation } from "data/ArticlesInformation";
 
 const BlogArticlePage = () => {
   const { url } = useParams();
