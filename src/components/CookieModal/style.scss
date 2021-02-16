@@ -1,0 +1,25 @@
+.modal {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgb(83, 79, 19);
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  width: 100%;
+  padding: 10px;
+  transition: all .8s;
+}
+
+.btn-container {
+  margin: 5px 0px;
+}
+
+.accept-cookie {
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+

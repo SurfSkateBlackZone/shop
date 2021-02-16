@@ -1,21 +1,27 @@
 import React, { useEffect } from "react";
 import ReactGA from "react-ga";
-import { GA_TRACKING_CODE } from '../config';
+import { GA_TRACKING_CODE } from "config";
 
-ReactGA.initialize(GA_TRACKING_CODE);
+ReactGA.initialize(GA_TRACKING_CODE, {
+  gaOptions: {
+    userId: ReactGA.ga((tracker) => {
+      tracker.get("clientId");
+    }),
+  },
+});
 
 const withTracker = (WrappedComponent, options = {}) => {
-  const trackPage = page => {
+  const trackPage = (page) => {
     ReactGA.set({
       page,
-      ...options
+      ...options,
     });
     ReactGA.pageview(page);
   };
 
-  const HOC = props => {
+  const HOC = (props) => {
     useEffect(() => trackPage(props.location.pathname), [
-      props.location.pathname
+      props.location.pathname,
     ]);
 
     return <WrappedComponent {...props} />;

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import ContentHighlight from "components/ContentHighlight";
 import Footer from "components/Footer";
@@ -9,7 +9,7 @@ import "./style.scss";
 
 const Home = () => {
   return (
-    <Fragment>
+    <>
       <Helmet>
         <meta
           name="description"
@@ -29,7 +29,7 @@ const Home = () => {
       <footer>
         <Footer />
       </footer>
-    </Fragment>
+    </>
   );
 };
 
