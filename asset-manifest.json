@@ -4,12 +4,12 @@
     "static/js/0.46b11365.chunk.js": "/shop/static/js/0.46b11365.chunk.js",
     "static/js/0.46b11365.chunk.js.map": "/shop/static/js/0.46b11365.chunk.js.map",
     "main.css": "/shop/static/css/main.50b3c98e.chunk.css",
-    "main.js": "/shop/static/js/main.e397ec3a.chunk.js",
-    "main.js.map": "/shop/static/js/main.e397ec3a.chunk.js.map",
+    "main.js": "/shop/static/js/main.f5f7b858.chunk.js",
+    "main.js.map": "/shop/static/js/main.f5f7b858.chunk.js.map",
     "runtime-main.js": "/shop/static/js/runtime-main.51cb2d92.js",
     "runtime-main.js.map": "/shop/static/js/runtime-main.51cb2d92.js.map",
-    "static/js/3.9aa9a51c.chunk.js": "/shop/static/js/3.9aa9a51c.chunk.js",
-    "static/js/3.9aa9a51c.chunk.js.map": "/shop/static/js/3.9aa9a51c.chunk.js.map",
+    "static/js/3.4bb3339d.chunk.js": "/shop/static/js/3.4bb3339d.chunk.js",
+    "static/js/3.4bb3339d.chunk.js.map": "/shop/static/js/3.4bb3339d.chunk.js.map",
     "static/css/4.64da474f.chunk.css": "/shop/static/css/4.64da474f.chunk.css",
     "static/js/4.35b3c9f5.chunk.js": "/shop/static/js/4.35b3c9f5.chunk.js",
     "static/js/4.35b3c9f5.chunk.js.map": "/shop/static/js/4.35b3c9f5.chunk.js.map",
@@ -27,7 +27,7 @@
     "static/css/5.cdd66542.chunk.css.map": "/shop/static/css/5.cdd66542.chunk.css.map",
     "static/css/6.41d88974.chunk.css.map": "/shop/static/css/6.41d88974.chunk.css.map",
     "static/css/main.50b3c98e.chunk.css.map": "/shop/static/css/main.50b3c98e.chunk.css.map",
-    "static/js/3.9aa9a51c.chunk.js.LICENSE.txt": "/shop/static/js/3.9aa9a51c.chunk.js.LICENSE.txt",
+    "static/js/3.4bb3339d.chunk.js.LICENSE.txt": "/shop/static/js/3.4bb3339d.chunk.js.LICENSE.txt",
     "static/media/BlackZone-logos_white.bc6d170f.svg": "/shop/static/media/BlackZone-logos_white.bc6d170f.svg",
     "static/media/HowChooseSurfSkate.ee84f694.jpg": "/shop/static/media/HowChooseSurfSkate.ee84f694.jpg",
     "static/media/MainSurfSkate.e8969e11.jpg": "/shop/static/media/MainSurfSkate.e8969e11.jpg",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.51cb2d92.js",
-    "static/js/3.9aa9a51c.chunk.js",
+    "static/js/3.4bb3339d.chunk.js",
     "static/css/main.50b3c98e.chunk.css",
-    "static/js/main.e397ec3a.chunk.js"
+    "static/js/main.f5f7b858.chunk.js"
   ]
 }
